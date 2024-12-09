@@ -23,7 +23,7 @@ export default function QRCreator() {
         <input
           type="text"
           value={url}
-          onChange={(e) => setUrl(e.target.value)}
+          onChange={e => setUrl(e.target.value)}
           placeholder="Enter URL here"
           className="w-full p-2 border rounded"
         />

@@ -1,12 +1,11 @@
-import "server-only"
+import 'server-only';
 
 export const ServerSideFunction = () => {
-
-    console.log(`
+  console.log(`
         use multiple librariries,
         use env variables,
         interact with a database,
         process confidential information
-        `)
-    return "Server Function results"
+        `);
+  return 'Server Function results';
 };
